@@ -6,4 +6,4 @@ COPY ./index.js ./index.js
 
 #WORKDIR
 
-CMD node ./index.js
+CMD ["node", "./index.js"]
